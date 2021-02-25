@@ -1,14 +1,16 @@
 function initCamera() {
   // Uncomment and fill in the correct selectors below.
-  // capture($('<Your code here>'),
-  //        $('<Your code here>'),
-  //        $('<Your code here>'));
+  capture(
+      $('#camera-video'),
+      $('#camera-canvas'),
+      $('#camera-button'));
+}
 
   // For Reference:
   // capture($('#camera-video'),
   //       $('#camera-canvas'),
   //       $('#camera-button'));
-}
+
 
 function capture(video, canvas, snapshotButton) {
   //Adopted from https://dev.opera.com/articles/media-capture-in-mobile-browsers/
